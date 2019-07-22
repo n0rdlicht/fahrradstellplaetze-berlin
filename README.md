@@ -12,7 +12,30 @@ Several topics out of the OpenStreetMap ecosystem have massively grown in comple
 
 ## `data/`
 
-We compiled a few snapshots of the current state of mapping bike infrastructure in [Berlin](https://wikidata.org/wiki/Q64) in our [presentation](https://slides.com/n0rdlicht/deck#/), also to be found in `presentation/`.
+We compiled a few snapshots of the current state of mapping bike infrastructure in [Berlin](https://wikidata.org/wiki/Q64) in our [presentation](https://slides.com/n0rdlicht/deck#/), also to be found in `presentation/`. Nodes and ways for `amenity=bicycle_parking`
+
+With some ohsome and wikidata magic Berlin actually fairs well among other german city states in relation to it's area. Compared to it's inhabtitants though it comes in second to Bremen.
+
+| State | Stellplatz April 2019 (ohmsome) | Area [km2] (wd:P2046) | Gemappte Stellplätze / km2 | Einwohner (wd:P1082) | Gemappte Stellplätze / 1000 Einwohner |
+| ----- | ---------- | ----- | ---- | ---- | --- |
+| Berlin | 3506 | 891.68 | **3.93** | 3.613.495 | 0.97 |
+| Hamburg | 1202 | 755.09 | 1.59 | 1.830.584 | 0.66 |
+| Prague | 1000 | 496.21 | 2.02 | 1.294.513 | 0.77 |
+| Bremen | 874 | 317.88 | 2.75 | 568.006 | **1.54** |
+
+From the same data here's the historical development from 2009 onwards (`data/ohsome-berlin-bike-stands-history.csv` includes more years):
+
+![Mapped bicycle stands development 2009 onwards for Berlin, Hamburg, Prague and Bremen](img/bicycle_parking_osm-last-ten-years.jpg)
+
+And lastly the trend for Berlin of the recent 5 years:
+
+![Mapped bicycle stands development 2011 onwards for Berlin](img/bicycle_parking_osm-berlin-only.jpg)
+
+### Completness Mapping via Overpass
+
+Besides a growing dataset data quality becomes of utmost importance. So we did a quick check on two OSM tags being present via Overpass. In `red` are the incomplete nodes, `grey` the complete ones.
+
+![](img/osm-overpass_bicycle-parking.jpg)
 
 ## Team
 

@@ -1,0 +1,41 @@
+{
+  "name": "osm-bike-mapping-berlin",
+  "title": "State of OSM Bike Mapping July 2019",
+  "format": ["csv","geojson"],
+  "datapackage_version": "1.0.0",
+  "last_modified": "2019-07-20",
+  "licenses": [{
+    "name": "ODC-PDDL-1.0",
+    "path": "http://opendatacommons.org/licenses/pddl/",
+    "title": "Open Data Commons Public Domain Dedication and License v1.0"
+  }],
+  "sources": [
+    {
+      "name": "ohsome API",
+      "web": "https://ohsome.org"
+    }
+  ],
+  "resources": [
+    {
+      "title": "Bike Stand mapping history Berlin",
+      "path": "data/ohsome-berlin-bike-stands-history.csv"
+    },{
+      "title": "Bike Stand mapping completness in Berlin, June 2019",
+      "description": "https://overpass-turbo.eu/s/KUI",
+      "licenses":[{
+        "name": "ODbL",
+        "path": "https://opendatacommons.org/licenses/odbl/index.html",
+        "title": "Open Data Commons Open Database License (ODbL)"
+        }],
+      "path": "data/overpass-berlin-bike-stands.geojson"
+    }
+  ],
+  "maintainers":[{
+    "name": "Thorben Westerhuys",
+    "web": "https://twitter.com/twesterhuys"
+  }],
+  "contributors":[{
+    "name": "Cividi",
+    "web": "https://www.cividi.ch/"
+  }]
+}
