@@ -39,7 +39,7 @@ Besides a growing dataset data quality becomes of utmost importance. So we did a
 
 ## Team
 
-- Tobias Jordans ([@todans](https://twitter.com/tordans))
+- Tobias Jordans ([@tordans](https://twitter.com/tordans))
 - Thorben Westerhuys ([@twesterhuys](https://twitter.com/twesterhuys))
 
 ## License
